@@ -152,40 +152,44 @@ export const formInputsList: IFormInput[] = [
     name: "title",
     label: "Product Title",
     type: "text",
+    placeholder: "EX: Toyota"
   },
   {
     id: "description",
     name: "description",
     label: "Product Description",
     type: "text",
+    placeholder: "EX: Great car with great engin ..."
   },
   {
     id: "image",
     name: "imageURL",
     label: "Product Image URL",
     type: "text",
+    placeholder: "EX: http://example.png"
   },
   {
     id: "price",
     name: "price",
     label: "Product Price",
     type: "text",
+    placeholder: "EX: 5000.00"
   },
 ];
 
-// export const colors: string[] = [
-//   "#a855f7",
-//   "#2563eb",
-//   "#84D2C5",
-//   "#13005A",
-//   "#A31ACB",
-//   "#FF6E31",
-//   "#3C2A21",
-//   "#6C4AB6",
-//   "#CB1C8D",
-//   "#000000",
-//   "#645CBB",
-// ];
+export const colors: string[] = [
+  "#a855f7",
+  "#2563eb",
+  "#84D2C5",
+  "#13005A",
+  "#A31ACB",
+  "#FF6E31",
+  "#3C2A21",
+  "#6C4AB6",
+  "#CB1C8D",
+  "#000000",
+  "#645CBB",
+];
 
 // export const categories: ICategory[] = [
 //   {
