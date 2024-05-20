@@ -14,6 +14,7 @@ const  AlertDialog = ({isOpen, children, closeModal, title}: IProps) => {
     <>
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={closeModal}>
+          <div className='fixed inset-0 backdrop-blur-sm' area-hidden="true"></div>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
